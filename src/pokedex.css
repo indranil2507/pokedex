@@ -1,0 +1,77 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px ;
+    padding: 50px 50px 50px 50px;
+    margin-top: 50px;
+}
+.card{
+    background-color: white;
+    display: flex;
+    margin-bottom: 25px;
+
+    
+}
+.link{
+    display: flex;
+    justify-content: center !important;
+    align-items:center !important;
+
+}
+.link-img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    transform: translatey(57px);
+    cursor: pointer;
+}
+.link-img:hover{
+    width: 90px;
+    height: 90px;
+
+}
+.searchbox{
+    
+    background-color: rgb(219, 30, 30);
+    max-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.search-button{
+    color: black;
+    background-color: grey;
+    padding: 10px 20px;
+    margin-left:10px;
+    border:none;
+    font-size: 15px;
+}
+.search-input{
+    display: flex;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:400px){
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+}
+.card-img-top{
+    display: flex;
+    height: 150px !important;
+    width: 150px !important;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
